@@ -27,7 +27,6 @@ import string
 import nltk
 from nltk.corpus import stopwords
 
-# Download stopwords if not already downloaded
 nltk.download('stopwords')
 
 def cleantext(text):
@@ -167,7 +166,6 @@ print(f'Test Loss: {test_loss}')
 import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-# Assuming you have already trained your model and have predictions on the test set
 # Replace 'y_pred' with your model's predictions
 y_pred = model.predict(X_test_tfidf)
 
