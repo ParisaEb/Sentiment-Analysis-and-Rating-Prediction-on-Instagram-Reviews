@@ -41,11 +41,6 @@ A neural network model is built using TensorFlow and Keras to predict the rating
 TF-IDF Vectorization: The review text is converted into TF-IDF features.
 Neural Network: A multi-layer neural network is trained to predict ratings.
 Early Stopping: The training process is optimized using early stopping to prevent overfitting.
-python
-Copy code
-model = keras.Sequential([
-    # Model architecture here
-])
 
 model.compile(optimizer='adam', loss='mean_squared_error')
 Model Evaluation
